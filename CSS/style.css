@@ -441,11 +441,3 @@ footer p {
 footer ul li a {
   color: rgba(255,255,255,1);
 }
-
-@media (max-width: 600px) {
-  .Titolo {
-    grid-template-columns: 1fr;
-    gap:36px;
-    
-  }
-}
