@@ -1,0 +1,451 @@
+body {
+    font-size: 14px;
+    margin: auto;
+    color: black;
+    background-color: #EAE7D8;
+  }
+
+header {
+  max-width: 100%;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;    
+}
+
+header p {
+  width: 100px;
+  color: rgba(255,255,255,1);
+  margin-top: 20px;
+  margin-left: 130px;
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 32px;
+  text-align: left;
+}
+
+header nav ul {
+  width: 100px;
+  color: rgba(255,255,255,1);
+  margin-right: 400px;
+  font-family: Libre Franklin;
+  font-weight: Medium;
+  font-size: 24px;
+  text-align: left;
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header nav ul a {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+.Titolo {
+  width: 480px;
+  color: rgba(54,53,53,1);
+  margin-top: 50px;
+  margin-left: 130px;
+  font-family: Libre Caslon Text;
+  font-weight: Regular;
+  font-size: 30px;
+}
+
+.Sottotitolo {
+  width: 480px;
+  color: rgba(54,53,53,1);
+  margin-top: 50px;
+  margin-left: 130px;
+  font-family: Libre Caslon Text;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Sottotitolo2 {
+  width: 480px;
+  color: rgba(54,53,53,1);
+  margin-top: 50px;
+  margin-left: 130px;
+  font-family: Libre Caslon Text;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Paragrafo {
+  width: 460px;
+  color: rgba(54,53,53,1);
+  margin-top: 50px;
+  margin-left: 130px;
+  margin-bottom: 200px;
+  font-size: 15px;
+}
+
+.Paragrafo1 {
+  width: 460px;
+  color: rgba(54,53,53,1);
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-bottom: 200px;
+  font-size: 15px;
+}
+
+.Paragrafo2 {
+  width: 460px;
+  color: rgba(54,53,53,1);
+  margin-top: 50px;
+  margin-left: 130px;
+  font-size: 15px;
+}
+
+.Paragrafo3 {
+  width: 460px;
+  color: rgba(54,53,53,1);
+  margin-top: 10pxpx;
+  margin-left: 130px;
+  margin-bottom: 200px;
+  font-size: 15px;
+}
+
+.Immagine1 {
+  width: 340px;
+  height: 531px;
+  background: url("../IMG/Handsome-Frank-Jean\ Jullien\ \(5\).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 243px;
+  left: 730px;
+}
+
+.Immagine2 {
+  width: 220px;
+  height: 139px;
+  background: url("../IMG/AP_Sanna_Mander_Vappu2021_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 243px;
+  left: 1090px;
+}
+
+.Immagine3 {
+  width: 220px;
+  height: 232px;
+  background: url("../IMG/Handsome-Frank-Michelle\ Thompson\ \(3\).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 401px;
+  left: 1090px;
+}
+
+.Immagine4 {
+  width: 220px;
+  height: 123px;
+  background: url("../IMG/AP_Icinori_ET-PUIS_PRINT_2_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 650px;
+  left: 1090px;
+}
+
+section.Immagini {
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  max-width: 1300px;
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 180px;
+  gap: 100px;
+}
+
+section.corpo {
+  display: flex;
+}
+
+section.Immagini a {
+  font-size: 16px;
+  color:rgba(54,53,53,1);
+  text-decoration: none;
+  font-family: Libre Franklin;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+section.Immagini img {
+  width: 100%;
+  object-fit: cover;
+  height: 140.71px;
+}
+
+section.Immagini div {
+  display: flex;
+  flex-direction: column;
+}
+
+section.Immagini a:hover {
+  text-decoration: underline;
+}
+
+.Immagine5 {
+  width: 339px;
+  height: 539px;
+  background: url("IMG/Handsome-Frank-Hattie Clark (4).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 323px;
+  left: 730px;
+  overflow: hidden;
+}
+
+.Immagine6 {
+  width: 220px;
+  height: 217px;
+  background: url("IMG/Handsome-Frank-Hattie Clark (8).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 260px;
+  left: 1090px;
+}
+
+.Immagine7 {
+  width: 220px;
+  height: 209px;
+  background: url("../images/v6_223.pngIMG/Handsome-Frank-Hattie Clark (2).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 498px;
+  left: 1090px;
+}
+
+.Immagine8 {
+  width: 340px;
+  height: 454px;
+  background: url("IMG/Handsome-Frank-Paul Blow (5).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 244px;
+  left: 730px;
+}
+
+.Immagine9 {
+  width: 220px;
+  height: 219px;
+  background: url("IMG/Handsome-Frank-Paul Blow (4).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 189px;
+  left: 1090px;
+}
+
+.Immagine10 {
+  width: 220px;
+  height: 301px;
+  background: url("IMG/Handsome-Frank-Paul Blow (8).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 427px;
+  left: 1090px;
+}
+
+.Immagine11 {
+  width: 340px;
+  height: 199px;
+  background: url("IMG/AP_Icinori_whereby_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 228px;
+  left: 730px;
+}
+.Immagine12 {
+  width: 220px;
+  height: 199px;
+  background: url("IMG/AP_Icinori_MOXIE_2_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 228px;
+  left: 1090px;
+}
+
+.Immagine13 {
+  width: 580px;
+  height: 324px;
+  background: url("IMG/AP_Icinori_ET-PUIS_PRINT_3_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 450px;
+  left: 730px;
+}
+
+.Immagine14 {
+  width: 340px;
+  height: 482px;
+  background: url("IMG/Handsome-Frank-Emily Robertson (3).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 252px;
+  left: 730px;
+}
+.Immagine15 {
+  width: 220px;
+  height: 220px;
+  background: url("IMG/Handsome-Frank-Michelle Thompson (7).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 219px;
+  left: 1090px;
+}
+.Immagine16 {
+  width: 220px;
+  height: 311px;
+  background: url("IMG/Handsome-Frank-Hattie Clark (2).jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 463px;
+  left: 1090px;
+}
+
+.Immagine17 {
+  width: 220px;
+  height: 291px;
+  background: url("IMG/AP_Adrian_Johnson_CARROT_2x-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 148px;
+  left: 730px;
+  overflow: hidden;
+}
+
+.Immagine18 {
+  width: 340px;
+  height: 210px;
+  background: url("IMG/AP_Martina_Paukova_The_Economist_2023-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 148px;
+  left: 970px;
+  overflow: hidden;
+}
+
+.Immagine19 {
+  width: 220px;
+  height: 320px;
+  background: url("IMG/AP_Martina_Paukova_MUBI-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 454px;
+  left: 730px;
+  overflow: hidden;
+}
+
+.Immagine20 {
+  width: 340px;
+  height: 400px;
+  background: url("IMG/AP_Adrian_Johnson_SPACEMAN_1_2x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 374px;
+  left: 970px;
+  overflow: hidden;
+}
+
+footer {
+  max-width: 100%;
+  height: 100px;
+  margin:auto;
+  font-family: Libre Franklin;
+  font-weight: SemiBold;
+  font-size: 21px;
+  background-color: black;
+  text-align: center;
+}
+
+footer nav ul {
+  display: flex;
+  gap: 21px;
+  padding-top: 10px;
+  margin-left: 586px;
+  list-style-type: none;
+}
+
+footer nav ul a {
+  text-decoration: none;
+}
+
+footer nav ul a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: rgba(255,255,255,1);
+  font-size: 18px;
+  font-family: Libre Franklin;
+  font-weight: SemiBold;
+}
+
+footer ul li a {
+  color: rgba(255,255,255,1);
+}
+
+@media (max-width: 600px) {
+  .Titolo {
+    grid-template-columns: 1fr;
+    gap:36px;
+    
+  }
+}
